@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">TheQuizApp</string>
+    <string name="hint_label_answer">provide answer</string>
+    <string name="question_1">Is Pluto considered as a planet in the Solar System?</string>
+    <string name="question_2">What is the smallest planet in the Solar System? select one</string>
+    <string name="question_3">What is the largest planet in the Solar System?</string>
+    <string name="question_4">What is the hottest planet in the Solar System?</string>
+    <string name="question_5">The sixth planet from the Sun features an extensive ring system,
+        what is the name of this planet?</string>
+    <string name="question_6">The chemical element uranium was named after what planet?</string>
+    <string name="question_7">What planet in the solar system is farthest from the Sun?</string>
+    <string name="question_8">What is the second smallest planet in the solar system?</string>
+    <string name="question_9">What planet is closest in size to Earth?</string>
+    <string name="question_10">The moon Titan orbits what planet?</string>
+
+    <string name="answer_1">false</string>
+    <string name="answer_2">Mercury</string>
+    <string name="answer_3">Jupiter</string>
+    <string name="answer_4">Venus</string>
+    <string name="answer_5">Saturn</string>
+    <string name="answer_6">Uranus</string>
+    <string name="answer_7">Neptune</string>
+    <string name="answer_8">Mars</string>
+    <string name="answer_9">Venus</string>
+    <string name="answer_10">Saturn</string>
+
+    <string name="score_msg_excellent">Excellent work</string>
+    <string name="score_msg_average">Good work</string>
+    <string name="score_msg_low">Not to bad, try again</string>
+    <string name="cb_answer_2">Mercury</string>
+    <string name="cb_answer_1">Mars</string>
+    <string name="radio_answer_2">false</string>
+    <string name="radio_answer_1">true</string>
+    <string name="tv_question_label">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</string>
+    <string name="btn_label_reset">reset</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="marginBottom_question_text_8dp">8dp</dimen>
+    <dimen name="marginTop_question_text_8dp">8dp</dimen>
+    <dimen name="padding_question_16dp">16dp</dimen>
+    <dimen name="padding_question_card_8dp">8dp</dimen>
+    <dimen name="cornerRadius_question_card_5dp">5dp</dimen>
+    <dimen name="cardElevation_question_card_5dp">5dp</dimen>
+    <dimen name="padding_question_text_5dp">5dp</dimen>
+</resources>

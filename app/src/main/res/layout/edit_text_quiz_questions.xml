@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="350dp"
+    app:cardCornerRadius="@dimen/cornerRadius_question_card_5dp"
+    app:cardElevation="@dimen/cardElevation_question_card_5dp"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="@dimen/padding_question_card_8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_question_16dp">
+
+        <TextView
+            android:id="@+id/tv_question_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/marginBottom_question_text_8dp"
+            android:fontFamily="sans-serif"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            tools:text="@string/tv_question_label" />
+        <EditText
+            android:id="@+id/et_question_answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_question_text"
+            android:layout_marginTop="@dimen/marginTop_question_text_8dp"
+            android:layout_marginBottom="@dimen/marginBottom_question_text_8dp"
+            android:background="@drawable/rounded_edit_text_bg"
+            android:hint="@string/hint_label_answer"
+            android:inputType="textPersonName"
+            android:padding="@dimen/padding_question_16dp"
+            tools:ignore="Autofill" />
+
+        <TextView
+            android:id="@+id/tv_answer_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et_question_answer"
+            android:layout_marginTop="@dimen/marginBottom_question_text_8dp"
+            android:layout_marginBottom="@dimen/marginBottom_question_text_8dp"
+            android:fontFamily="sans-serif-medium"
+            android:padding="@dimen/padding_question_text_5dp"
+            android:textColor="@android:color/holo_green_dark"
+            tools:text="Answer: Jupiter" />
+
+    </RelativeLayout>
+</com.google.android.material.card.MaterialCardView>
